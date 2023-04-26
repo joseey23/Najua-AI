@@ -74,7 +74,7 @@ const handleSubmit = async (e) => {
 
   //fetching data from server
 
-  const response = await fetch("https://najua-ai.onrender.com", {
+  const response = await fetch("https://localhost:5000", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
